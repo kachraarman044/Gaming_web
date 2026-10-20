@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Game Website</title>
+    <meta name="description" content="Get in touch with The Game Website team. We'd love to hear from you!">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <!-- Floating Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Top bar -->
+    <header class="contact-topbar">
+        <a href="index.html" class="brand">
+            <i class="fas fa-gamepad"></i>
+            <span>Game Zone</span>
+        </a>
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </header>
+
+    <main class="contact-container">
+        <!-- Header -->
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>Have questions, feedback, or just want to say hello? We'd love to hear from you!</p>
+        </div>
+
+        <!-- Contact Grid -->
+        <div class="contact-grid">
+            <!-- Info Card -->
+            <div class="contact-info-card">
+                <h3>Get In Touch</h3>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-text">
+                        <h4>Address</h4>
+                        <p>1481 Creekside Lane,<br>Avila Beach, CA 93424</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info-text">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div class="info-text">
+                        <h4>Email</h4>
+                        <p><a href="mailto:contact@gamewebsite.com">contact@gamewebsite.com</a></p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+
+            <!-- Form Card -->
+            <div class="contact-form-card">
+                <h3>Send a Message</h3>
+                <form id="contactForm" novalidate>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="send-btn">Send Message</button>
+                    <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Thanks! Your message has been received. We'll get back to you shortly.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="contact-footer">
+        <p>The Website designed by Mitesh, Araman and Harikrushn</p>
+    </footer>
+
+    <script>
+        (function () {
+            var form = document.getElementById('contactForm');
+            var success = document.getElementById('formSuccess');
+            if (!form) return;
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                if (!form.checkValidity()) {
+                    form.reportValidity();
+                    return;
+                }
+
+                success.classList.add('show');
+                form.reset();
+                setTimeout(function () {
+                    success.classList.remove('show');
+                }, 6000);
+            });
+        })();
+    </script>
+</body>
+
+</html>

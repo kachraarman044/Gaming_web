@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - The Game Website</title>
+    <meta name="description" content="Explore Minecraft - the best-selling sandbox game with infinite worlds and limitless creativity.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="game-header"><div class="header-inner"><a href="index.html" class="site-logo"><i class="fas fa-gamepad"></i><span>The Game Website</span></a><nav><ul><li><a href="index.html#home">Home</a></li><li><a href="index.html#logo-section">Games</a></li><li><a href="index.html#section-3">About</a></li><li><a href="index.html#tournaments-section">Tournament</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
+    <section class="game-hero"><div class="game-hero-content"><h1>Minecraft</h1><p>Build anything you can imagine in the best-selling video game of all time.</p><a href="#game-info" class="hero-btn">Discover More</a></div></section>
+    <section class="game-detail" id="game-info"><div class="game-card">
+        <img src="images/minecraft.jpg" alt="Minecraft" class="game-card-image">
+        <div class="game-card-body">
+            <h2>About Minecraft</h2>
+            <p class="game-description">Minecraft is the best-selling video game of all time, developed by Mojang Studios. Build anything you can imagine in this sandbox adventure with infinite procedurally generated worlds, survival challenges, and limitless creativity. Whether you're mining deep underground, building epic structures, or fighting the Ender Dragon, Minecraft offers an experience that's uniquely yours.</p>
+            <h3>Key Features</h3>
+            <div class="features-grid">
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-cubes"></i></span> Infinite Worlds</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-hammer"></i></span> Creative Building</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-shield-alt"></i></span> Survival Mode</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-users"></i></span> Multiplayer Servers</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-puzzle-piece"></i></span> Modding Support</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-dragon"></i></span> Boss Battles</div>
+            </div>
+            <button class="purchase-button" onclick="purchaseGame('Minecraft')"><i class="fas fa-shopping-cart"></i> Purchase Now</button>
+        </div>
+    </div></section>
+    <footer class="game-footer"><p>&copy; 2025 <span>The Game Website</span>. All Rights Reserved.</p></footer>
+    <script>function purchaseGame(n){alert(n+" purchased successfully! Enjoy the game!");}</script>
+</body>
+</html>

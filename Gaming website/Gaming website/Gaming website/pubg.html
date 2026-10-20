@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG - The Game Website</title>
+    <meta name="description" content="Explore PUBG Battlegrounds - the pioneer of battle royale gaming.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="game-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-logo"><i class="fas fa-gamepad"></i><span>The Game Website</span></a>
+            <nav><ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#logo-section">Games</a></li>
+                <li><a href="index.html#section-3">About</a></li>
+                <li><a href="index.html#tournaments-section">Tournament</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul></nav>
+        </div>
+    </header>
+    <section class="game-hero">
+        <div class="game-hero-content">
+            <h1>PUBG: Battlegrounds</h1>
+            <p>The pioneer of the battle royale genre. Drop, loot, and fight to be the last one standing.</p>
+            <a href="#game-info" class="hero-btn">Discover More</a>
+        </div>
+    </section>
+    <section class="game-detail" id="game-info">
+        <div class="game-card">
+            <img src="images/Battleground_Mobile_India.webp" alt="PUBG Battlegrounds" class="game-card-image">
+            <div class="game-card-body">
+                <h2>About PUBG: Battlegrounds</h2>
+                <p class="game-description">PUBG: Battlegrounds is the pioneer of the battle royale genre, published by Krafton. Drop onto a massive island, scavenge for weapons and equipment, and fight to be the last one standing in this intense 100-player showdown. Inspired by the Japanese film Battle Royale, the game features realistic gunplay, tactical combat, and an ever-shrinking play zone that forces players into increasingly intense encounters.</p>
+                <h3>Key Features</h3>
+                <div class="features-grid">
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-parachute-box"></i></span> 100-Player Battle Royale</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-map-marked-alt"></i></span> Multiple Maps</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-users"></i></span> Squad & Solo Modes</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-crosshairs"></i></span> Realistic Gunplay</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-car"></i></span> Vehicle Combat</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-trophy"></i></span> Ranked Competitive</div>
+                </div>
+                <button class="purchase-button" onclick="purchaseGame('PUBG: Battlegrounds')"><i class="fas fa-shopping-cart"></i> Purchase Now</button>
+            </div>
+        </div>
+    </section>
+    <footer class="game-footer"><p>&copy; 2025 <span>The Game Website</span>. All Rights Reserved.</p></footer>
+    <script>function purchaseGame(n){alert(n+" purchased successfully! Enjoy the game!");}</script>
+</body>
+</html>

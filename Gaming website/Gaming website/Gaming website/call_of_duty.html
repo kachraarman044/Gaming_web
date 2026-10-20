@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call of Duty - The Game Website</title>
+    <meta name="description" content="Explore Call of Duty - the legendary military first-person shooter series by Activision.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="game-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-logo">
+                <i class="fas fa-gamepad"></i>
+                <span>The Game Website</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#logo-section">Games</a></li>
+                    <li><a href="index.html#section-3">About</a></li>
+                    <li><a href="index.html#tournaments-section">Tournament</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="game-hero">
+        <div class="game-hero-content">
+            <h1>Call of Duty</h1>
+            <p>The legendary military first-person shooter that defined modern warfare gaming.</p>
+            <a href="#game-info" class="hero-btn">Discover More</a>
+        </div>
+    </section>
+
+    <section class="game-detail" id="game-info">
+        <div class="game-card">
+            <img src="images/battle.jpg" alt="Call of Duty" class="game-card-image">
+            <div class="game-card-body">
+                <h2>About Call of Duty</h2>
+                <p class="game-description">Call of Duty is a legendary military first-person shooter series published by Activision since 2003. Featuring intense combat, cinematic campaigns, and competitive multiplayer, it remains one of gaming's most iconic franchises. Developed by Infinity Ward, Treyarch, and Sledgehammer Games, the series has evolved through modern warfare, historical battles, and futuristic settings.</p>
+                <h3>Key Features</h3>
+                <div class="features-grid">
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-crosshairs"></i></span> Intense FPS Combat</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-film"></i></span> Cinematic Campaign</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-users"></i></span> Online Multiplayer</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-skull-crossbones"></i></span> Zombie Mode</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-trophy"></i></span> Competitive Esports</div>
+                    <div class="feature-item"><span class="feature-icon"><i class="fas fa-sync-alt"></i></span> Regular Updates</div>
+                </div>
+                <button class="purchase-button" onclick="purchaseGame('Call of Duty')">
+                    <i class="fas fa-shopping-cart"></i> Purchase Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="game-footer">
+        <p>&copy; 2025 <span>The Game Website</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function purchaseGame(name) {
+            alert(name + " purchased successfully! Enjoy the game!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/*! Font Awesome Free 5.15.3 - icon subset used by this project | https://fontawesome.com/license/free */
+@charset "UTF-8";
+@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;display:block;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format('embedded-opentype'),url(../webfonts/fa-solid-900.woff2) format('woff2'),url(../webfonts/fa-solid-900.woff) format('woff'),url(../webfonts/fa-solid-900.ttf) format('truetype'),url(../webfonts/fa-solid-900.svg#fontawesome) format('svg')}
+@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:400;display:block;src:url(../webfonts/fa-regular-400.eot);src:url(../webfonts/fa-regular-400.eot?#iefix) format('embedded-opentype'),url(../webfonts/fa-regular-400.woff2) format('woff2'),url(../webfonts/fa-regular-400.woff) format('woff'),url(../webfonts/fa-regular-400.ttf) format('truetype'),url(../webfonts/fa-regular-400.svg#fontawesome) format('svg')}
+@font-face{font-family:'Font Awesome 5 Brands';font-style:normal;font-weight:400;display:block;src:url(../webfonts/fa-brands-400.eot);src:url(../webfonts/fa-brands-400.eot?#iefix) format('embedded-opentype'),url(../webfonts/fa-brands-400.woff2) format('woff2'),url(../webfonts/fa-brands-400.woff) format('woff'),url(../webfonts/fa-brands-400.ttf) format('truetype'),url(../webfonts/fa-brands-400.svg#fontawesome) format('svg')}
+.fas,.far,.fab,.fal,.fad,.fabrs{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
+.fas{font-family:'Font Awesome 5 Free';font-weight:900}
+.far{font-family:'Font Awesome 5 Free';font-weight:400}
+.fab,.fabrs{font-family:'Font Awesome 5 Brands';font-weight:400}
+.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-.0667em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}
+.fa-fw{width:1.25em;text-align:center}.fa-ul{list-style-type:none;padding-left:0;margin-left:-1.25em}.fa-ul .fa{width:1.25em}.fa-border{padding:.1875em .25em;border:solid .0625em #eceff1;border-radius:.0625em}.fa-pull-left{float:left}.fa-pull-right{float:right}
+.fa-spin{animation:fa-spin 2s infinite linear}.fa-pulse{animation:fa-spin 1s infinite steps(8)}
+@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}
+.fa-stack{display:inline-block;position:relative}.fa-stack-1x,.fa-stack-2x{display:inline-block;width:100%}.fa-stack-1x{text-align:center}.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
+.fa-inverse{color:#fff}
+.fa-arrow-left:before{content:"\f060"}
+.fa-book:before{content:"\f02d"}
+.fa-briefcase:before{content:"\f0b1"}
+.fa-building:before{content:"\f1ad"}
+.fa-calendar-alt:before{content:"\f073"}
+.fa-car:before{content:"\f1b9"}
+.fa-chess:before{content:"\f439"}
+.fa-clock:before{content:"\f017"}
+.fa-cog:before{content:"\f013"}
+.fa-coins:before{content:"\f51e"}
+.fa-crosshairs:before{content:"\f05b"}
+.fa-cubes:before{content:"\f1b3"}
+.fa-dice:before{content:"\f522"}
+.fa-discord:before{content:"\f392"}
+.fa-dragon:before{content:"\f6d5"}
+.fa-dungeon:before{content:"\f6d9"}
+.fa-envelope:before{content:"\f0e0"}
+.fa-facebook-f:before{content:"\f39e"}
+.fa-film:before{content:"\f008"}
+.fa-fish:before{content:"\f578"}
+.fa-fist-raised:before{content:"\f6de"}
+.fa-flag-usa:before{content:"\f74d"}
+.fa-gamepad:before{content:"\f11b"}
+.fa-gem:before{content:"\f3a5"}
+.fa-gift:before{content:"\f06b"}
+.fa-globe:before{content:"\f0ac"}
+.fa-globe-americas:before{content:"\f57d"}
+.fa-grin-beam-sweat:before{content:"\f583"}
+.fa-grin-squint-tears:before{content:"\f586"}
+.fa-hammer:before{content:"\f6e3"}
+.fa-hat-wizard:before{content:"\f6e8"}
+.fa-heart:before{content:"\f004"}
+.fa-home:before{content:"\f015"}
+.fa-instagram:before{content:"\f16d"}
+.fa-lock:before{content:"\f023"}
+.fa-map:before{content:"\f279"}
+.fa-map-marked-alt:before{content:"\f5a0"}
+.fa-map-marker-alt:before{content:"\f3c5"}
+.fa-mask:before{content:"\f6fa"}
+.fa-mobile-alt:before{content:"\f3cd"}
+.fa-mountain:before{content:"\f6fc"}
+.fa-paint-brush:before{content:"\f1fc"}
+.fa-parachute-box:before{content:"\f4cd"}
+.fa-phone-alt:before{content:"\f879"}
+.fa-puzzle-piece:before{content:"\f12e"}
+.fa-redo:before{content:"\f01e"}
+.fa-road:before{content:"\f018"}
+.fa-running:before{content:"\f70c"}
+.fa-scroll:before{content:"\f70e"}
+.fa-seedling:before{content:"\f4d8"}
+.fa-shield-alt:before{content:"\f3ed"}
+.fa-shopping-cart:before{content:"\f07a"}
+.fa-skull:before{content:"\f54c"}
+.fa-skull-crossbones:before{content:"\f714"}
+.fa-star:before{content:"\f005"}
+.fa-sync-alt:before{content:"\f2f1"}
+.fa-trophy:before{content:"\f091"}
+.fa-truck:before{content:"\f0d1"}
+.fa-tshirt:before{content:"\f553"}
+.fa-twitter:before{content:"\f099"}
+.fa-user:before{content:"\f007"}
+.fa-user-ninja:before{content:"\f504"}
+.fa-user-plus:before{content:"\f234"}
+.fa-users:before{content:"\f0c0"}
+.fa-utensils:before{content:"\f2e7"}
+.fa-check-circle:before{content:"\f058"}

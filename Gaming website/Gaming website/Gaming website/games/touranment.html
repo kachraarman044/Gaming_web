@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Bracket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming Tournament</h1>
+    </header>
+    <main>
+        <div class="bracket">
+            <div class="round">
+                <div class="match">
+                    <input type="text" placeholder="Team 1" class="team">
+                    <span>vs</span>
+                    <input type="text" placeholder="Team 2" class="team">
+                    <button onclick="updateWinner(this)">Win</button>
+                </div>
+                <div class="match">
+                    <input type="text" placeholder="Team 3" class="team">
+                    <span>vs</span>
+                    <input type="text" placeholder="Team 4" class="team">
+                    <button onclick="updateWinner(this)">Win</button>
+                </div>
+            </div>
+            <div class="round next-round">
+                <div class="match">
+                    <input type="text" class="team winner" readonly>
+                    <span>vs</span>
+                    <input type="text" class="team winner" readonly>
+                    <button onclick="updateWinner(this)">Win</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

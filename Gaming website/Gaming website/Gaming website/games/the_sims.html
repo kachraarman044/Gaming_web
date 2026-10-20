@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        header li {
+            margin-left: 20px;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #showcase h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            color: #ffffff;
+            background: #e8491d;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .content {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .purchase-button {
+            background-color: #ff4500;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px auto;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .purchase-button:hover {
+            background-color: #e03a00;
+        }
+
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Game Information</h1>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#logo-section">Games</a></li>
+                <li><a href="index.html#section-3">About</a></li>
+                <li><a href="concat us/concat.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to the Game World!</h1>
+            <p>Explore exciting games and experience an adventurous journey.</p>
+            <a href="#container" class="button">Discover More</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="container">
+            <div class="content">
+                <h2>Game Title</h2>
+                <img src="images/the_sims.jpg" alt="Game Image" class="game-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac lacinia libero, vel pharetra urna. Mauris quis felis eget nisi facilisis tincidunt.</p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Exciting gameplay</li>
+                    <li>Stunning graphics</li>
+                    <li>Multiplayer mode</li>
+                    <li>Regular updates</li>
+                </ul>
+                <button class="purchase-button" onclick="purchaseGame()">Purchase Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Game World. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function purchaseGame() {
+            alert("Game purchased successfully!");
+        }
+    </script>
+</body>
+</html>

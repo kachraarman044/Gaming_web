@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraria - The Game Website</title>
+    <meta name="description" content="Explore Terraria - the action-adventure sandbox game with exploration, crafting, building, and combat.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="game-header"><div class="header-inner"><a href="index.html" class="site-logo"><i class="fas fa-gamepad"></i><span>The Game Website</span></a><nav><ul><li><a href="index.html#home">Home</a></li><li><a href="index.html#logo-section">Games</a></li><li><a href="index.html#section-3">About</a></li><li><a href="index.html#tournaments-section">Tournament</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
+    <section class="game-hero"><div class="game-hero-content"><h1>Terraria</h1><p>Dig, fight, explore, and build in this 2D sandbox world filled with treasures and monsters.</p><a href="#game-info" class="hero-btn">Discover More</a></div></section>
+    <section class="game-detail" id="game-info"><div class="game-card">
+        <img src="images/terraria.jpg" alt="Terraria" class="game-card-image">
+        <div class="game-card-body">
+            <h2>About Terraria</h2>
+            <p class="game-description">Terraria is an action-adventure sandbox game developed by Re-Logic. Dig deep underground to find treasures and resources, fight challenging bosses, explore vast biomes, and build incredible structures. With procedurally generated worlds, hundreds of items to craft, and both single-player and multiplayer modes, Terraria offers hundreds of hours of engaging gameplay.</p>
+            <h3>Key Features</h3>
+            <div class="features-grid">
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-mountain"></i></span> Procedural Worlds</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-hammer"></i></span> Deep Crafting System</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-skull-crossbones"></i></span> Epic Boss Fights</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-home"></i></span> Base Building</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-users"></i></span> Multiplayer Co-op</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-gem"></i></span> Tons of Loot</div>
+            </div>
+            <button class="purchase-button" onclick="purchaseGame('Terraria')"><i class="fas fa-shopping-cart"></i> Purchase Now</button>
+        </div>
+    </div></section>
+    <footer class="game-footer"><p>&copy; 2025 <span>The Game Website</span>. All Rights Reserved.</p></footer>
+    <script>function purchaseGame(n){alert(n+" purchased successfully! Enjoy the game!");}</script>
+</body>
+</html>

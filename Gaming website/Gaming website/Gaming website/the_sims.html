@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sims - The Game Website</title>
+    <meta name="description" content="Explore The Sims - the ultimate life simulation game.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="game-header"><div class="header-inner"><a href="index.html" class="site-logo"><i class="fas fa-gamepad"></i><span>The Game Website</span></a><nav><ul><li><a href="index.html#home">Home</a></li><li><a href="index.html#logo-section">Games</a></li><li><a href="index.html#section-3">About</a></li><li><a href="index.html#tournaments-section">Tournament</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
+    <section class="game-hero"><div class="game-hero-content"><h1>The Sims</h1><p>Create unique characters, build dream homes, and live out countless stories in your virtual world.</p><a href="#game-info" class="hero-btn">Discover More</a></div></section>
+    <section class="game-detail" id="game-info"><div class="game-card">
+        <img src="images/the_sims.jpg" alt="The Sims" class="game-card-image">
+        <div class="game-card-body">
+            <h2>About The Sims</h2>
+            <p class="game-description">The Sims is the ultimate life simulation game published by Electronic Arts. Create unique characters with distinct personalities, build and decorate dream homes, manage relationships, pursue careers, and live out countless stories in your own virtual world. With extensive expansion packs and a passionate community, The Sims offers infinite possibilities for creative expression.</p>
+            <h3>Key Features</h3>
+            <div class="features-grid">
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-user-plus"></i></span> Character Creation</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-home"></i></span> Home Building</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-heart"></i></span> Relationships</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-briefcase"></i></span> Career Paths</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-puzzle-piece"></i></span> Expansion Packs</div>
+                <div class="feature-item"><span class="feature-icon"><i class="fas fa-paint-brush"></i></span> Interior Design</div>
+            </div>
+            <button class="purchase-button" onclick="purchaseGame('The Sims')"><i class="fas fa-shopping-cart"></i> Purchase Now</button>
+        </div>
+    </div></section>
+    <footer class="game-footer"><p>&copy; 2025 <span>The Game Website</span>. All Rights Reserved.</p></footer>
+    <script>function purchaseGame(n){alert(n+" purchased successfully! Enjoy the game!");}</script>
+</body>
+</html>
